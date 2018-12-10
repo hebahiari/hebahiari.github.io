@@ -46,6 +46,11 @@ div > img {
 
 .portfolio-images img {
   width: 100%;
+  margin-bottom: 0px;
+}
+
+#portfolio > h2 {
+  margin-left: 3rem;
 }
 
 .subheading {
