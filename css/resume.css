@@ -44,6 +44,10 @@ div > img {
   width: 100%;
 }
 
+.portfolio-images img {
+  width: 100%;
+}
+
 .subheading {
   font-weight: 500;
   font-family: 'Source Sans Pro', sans-serif;
