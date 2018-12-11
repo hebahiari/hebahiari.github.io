@@ -167,37 +167,65 @@
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
-          <ul class="fa-ul mb-0">
+          <div id="skills_div">
+
+          <div>
+
+            <h3>Computer Programs</h3>
+          <ul>
             <li>
-              <i class="fa-li fa fa-check"></i>
               Autodesk Revit
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
               Autodesk 3Ds Max
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
               Autodesk Autocad
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
               Google Sketchup  
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
               Adobe Photoshop
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
               Adobe Illustrator
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
               Adobe InDesign
             </li>
+            </ul>
+            </div>
+
+            <div>
+            <h3>Hands-on Skills</h3>
+
+            <ul>
+           
+              <li>Photography</li>
+              <li>Drawing and painting</li>
+              <li>Creating architectural models</li>
+
+
+            </ul>
+            </div>
+
+
+            <div>
+            <h3>Languages</h3>
+
+            <ul>
+            <li>
+              English (excellent)  
+            </li>
+            <li>
+              Arabic (native)
+            </li>
+            </ul>
+            </div>
+
+            </div>
             
-          </ul>
         </div>
       </section>
 
@@ -233,34 +261,12 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
+      <section class="" id="interests">
           <h2 class="mb-5">Interests</h2>
-          <p>
-            I am writing to express my interest in the Architect position at your company.
-          </p>
-          <p>
-            I am very excited about the possibility of working for a
-            reputable and growing company like yours where I will have the opportunity to
-            work on architectural design and planning in a professional setting.
-          </p>
-          <p>    
-              My enclosed CV clearly shows my knowledge of design, Architectural, landscape and interior, as well as my ability to utilize Revit,
-              Auto CAD, 3Ds max, Vray, Adobe Photoshop, Microsoft Office and other graphics communication programs, 
-              and I have the the design and development flair needed to plan, coordinate and be involved in all phases of an architectural project.
-              
-              I consider myself a creative person, with a huge passion for design and arts, and I am a curious knowledge seeker and a fast learner.
-              
-              On top of this I have great communication skills and
-              social skills dealing with different types of people, and I am great at working in a team as well as individually. 
-            </p>
-            <p>  
-              I appreciate your consideration of my application and look
-              forward to further discussing this opportunity with you in person.
-              
-              Please feel free to contact me anytime to arrange an interview.
-            
-            </p>
+
+        <div class="my-auto interests-images">
+          <img src="img/interests/1.jpg" />
+          <img src="img/interests/2.jpg" />
         </div>
       </section>
 
@@ -279,7 +285,7 @@
     <script>
 
       $(".portfolio-images").html("");
-      for (var i = 1; i <= 13; i++) {
+      for (var i = 1; i <= 16; i++) {
         $(".portfolio-images").append('<a href="img/portfolio/'  + i +  '.jpg"><img src="img/portfolio/'+i+'.jpg" /></a>');
       }
 
