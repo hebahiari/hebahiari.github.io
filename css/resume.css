@@ -11,6 +11,16 @@ body {
   }
 }
 
+#top-border {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5px;
+  background-color: #659d32;
+}
+
 h1,
 h2,
 h3,
@@ -127,35 +137,35 @@ div > img {
 #skills_div > div {
   display: block;
   margin-right: 100px;
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 section ul > li {
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 #experience p {
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 #education p {
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 #experience .subheading {
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 #experience span {
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 #education .subheading {
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 #education span {
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {

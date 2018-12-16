@@ -2,12 +2,27 @@ body {
   @include body-font;
   padding-top: 54px;
   color: $gray-600;
+  // border-top: 5px solid $top-border;
 }
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: $sidebar-base-width;
   }
+}
+
+// .navbar {
+//   border-top: 5px solid $top-border;
+// }
+
+#top-border {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5px;
+  background-color: $top-border;
 }
 
 h1,
@@ -120,35 +135,37 @@ div > img {
   max-width: 100%;
 }
 
+$fontsize: 1.5vw;
+
 #skills_div > div {
   display: block;
   margin-right: 100px;
-  font-size: 25px;
+  font-size: $fontsize;
 }
 
 section ul > li {
-  font-size: 25px;
+  font-size: $fontsize;
 }
 
 #experience p {
-  font-size: 25px;
+  font-size: $fontsize;
 }
 
 #education p {
-  font-size: 25px;
+  font-size: $fontsize;
 }
 
 #experience .subheading {
-  font-size: 25px;
+  font-size: $fontsize;
 }
 
 #experience span {
-  font-size: 25px;
+  font-size: $fontsize;
 }
 #education .subheading {
-  font-size: 25px;
+  font-size: $fontsize;
 }
 
 #education span {
-  font-size: 25px;
+  font-size: $fontsize;
 }
