@@ -54,9 +54,13 @@ div > img {
   width: 100%;
 }
 
-.portfolio-images img {
+.images-stack img {
   width: 100%;
   margin-bottom: 0px;
+}
+
+.images-section > h2 {
+  margin-left: 50px;
 }
 
 .interests-images img {
