@@ -63,6 +63,16 @@ div > img {
   margin-left: 50px;
 }
 
+.images-section > h4 {
+  padding-left: 50px;
+  padding-right: 100px;
+  font-weight: normal;
+}
+
+h4 > a {
+  color: blue
+}
+
 .interests-images img {
   width: 100%;
   margin-bottom: 0px;
