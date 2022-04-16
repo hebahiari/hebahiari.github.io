@@ -137,7 +137,7 @@ p {
 .page-content {
     position: relative;
     width: 100%;
-    max-width: 75vw;
+    max-width: 100%;
     min-height: 80vh;
     margin: 10vh auto;
     padding: 0;
@@ -2383,6 +2383,9 @@ blockquote {
 @media only screen and (min-width: 1025px) {
     .menu-toggle {
         display: none;
+    }
+    .page-content {
+        max-width: 75vw;
     }
 }
 
